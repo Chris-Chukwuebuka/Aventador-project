@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1-heading{
+    text-align: center;
+    padding-top: 70px ;
+}
+.take{
+    font-family: var(--mansalva);
+    font-weight: 400;
+    line-height: 33px;
+    color: var(--blue);
+}
+.ideas{
+    font-family: var(--palanquin);
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 90px;
+}
+@media (min-width:768px) {
+   .take{
+    font-size: 30px;
+   } 
+   .ideas{
+    font-size: 50px;
+   }
+}
